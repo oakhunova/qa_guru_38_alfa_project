@@ -17,10 +17,10 @@ public class TestBase {
 
         Configuration.baseUrl = "https://alfabank.ru";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
-        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browserVersion = System.getProperty("browser_version", "128.0");
+        Configuration.browserSize = System.getProperty("browser_resolution", "1920x1080");
         Configuration.timeout = 10000;
-        Configuration.remote = ("https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = System.getProperty("remote_browser");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.of(
