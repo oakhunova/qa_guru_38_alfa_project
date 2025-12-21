@@ -1,0 +1,18 @@
+package components;
+
+import com.codeborne.selenide.SelenideElement;
+
+import java.time.Duration;
+
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
+
+public class CheckResultComponent {
+    private final SelenideElement resultsContainerSelector = $(".hdJZg3");
+    public void checkResult(String value) {
+        resultsContainerSelector
+                .shouldBe(visible, Duration.ofSeconds(5))
+                .shouldHave(text(value));
+    }
+}
