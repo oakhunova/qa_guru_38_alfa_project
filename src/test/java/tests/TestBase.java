@@ -22,7 +22,6 @@ public class TestBase {
         Configuration.timeout = 10000;
         Configuration.remote = ("https://user1:1234@selenoid.autotests.cloud/wd/hub");
 
-        // Настраиваем capabilities для Selenoid
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.of(
                 "enableVNC", true,
@@ -42,10 +41,5 @@ public class TestBase {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
-    }
-
-    @AfterEach
-    public void tearDown() {
-        Selenide.closeWebDriver();
     }
 }
