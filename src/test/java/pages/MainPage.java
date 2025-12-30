@@ -11,10 +11,10 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class MainPage {
     private final SelenideElement logo = $("a[title='alfaIcon']");
-    private final SelenideElement loginButton = $("button[data-widget-uid='0196a56c-ac6a-788e-a77a-c826e745dd74']");
+    private final SelenideElement loginButton = $("button[data-widget-uid='019b5a60-11d9-711e-bcb3-2406c89be94b']");
     private final SelenideElement searchButton = $("[data-test-id='test-ya-button']");
     private final SelenideElement searchInput = $("[data-test-id='search-input']");
-    private final SelenideElement creditCardButton = $("[data-widget-uid='eca7c1e6-16b1-42c3-87bf-7cb8e8c589c2']");
+    private final SelenideElement creditCardButton = $("[data-widget-uid='019b6ed8-33ab-799e-99bc-55a559fbc357']");
     private final SelenideElement getCardButton = $("[data-test-id='MainBanner-button-get-card']");
 
     CheckResultComponent checkResultComponent = new CheckResultComponent();
