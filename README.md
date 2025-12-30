@@ -1,12 +1,12 @@
 # Проект автоматизации тестирования для [Альфа-Банка](https://alfabank.ru/)
 ## Содержание:
 
-- [Использованный стек технологий](#computer-использованный-стек-технологий)
-- [Запуск тестов из терминала](#arrow_forward-запуск-тестов-из-терминала)
+- [Использованный стек технологий](#использованный-стек-технологий)
+- [Запуск тестов из терминала](#запуск-тестов-из-терминала)
 - [Сборка в Jenkins](#сборка-в-jenkins)
 - [Allure Report](#пример-allure-отчета)
-- [Уведомления о результатах тестов в Telegram с использованием бота](#уведомления-в-telegram-с-использованием-бота)
-- [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
+- [Уведомления о результатах тестов в Telegram с использованием бота](#уведомления-о-результатах-тестов-в-telegram-с-использованием-бота)
+- [Видео примера запуска тестов в Selenoid](#видео-примера-запуска-теста-в-selenoid)
 
 ## Использованный стек технологий
 
@@ -44,7 +44,7 @@ gradle clean alfamainpage_test
 
 ## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета
 
-[Allure отчет](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/7/allure/)
+[Allure отчет](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/)
 ### *Основная страница*
 <p align="center">
 <img title="Allure Report" src="media/screens/Allure%20отчет.jpg">
@@ -61,7 +61,7 @@ gradle clean alfamainpage_test
 <img width="70%" title="Telegram Notifications" src="media/screens/Telegram%20bot.jpg">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео примера запуска тестов в Selenoid
+### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео примера запуска теста в Selenoid
 
 <p align="center">
   <img title="Selenoid Video" src="media/screens/Видео%20Selenoid.gif">
