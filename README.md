@@ -4,9 +4,9 @@
 - [Использованный стек технологий](#использованный-стек-технологий)
 - [Запуск тестов из терминала](#запуск-тестов-из-терминала)
 - [Сборка в Jenkins](#jenkins-build)
-- [Allure Report](#пример-allure-отчета)
-- [Уведомления о результатах тестов в Telegram с использованием бота](#уведомления-о-результатах-тестов-в-telegram-с-использованием-бота)
-- [Видео примера запуска тестов в Selenoid](#видео-примера-запуска-теста-в-selenoid)
+- [Allure Report](#allure-report)
+- [Уведомления о результатах тестов в Telegram с использованием бота](#telegram)
+- [Видео примера запуска тестов в Selenoid](#video-selenoid)
 
 ## Использованный стек технологий
 
@@ -43,6 +43,7 @@ gradle clean alfamainpage_test
 <img title="Jenkins Build" src="media/screens/Сборка%20Jenkins.jpg">
 </p>
 
+<a id="allure-report"></a>
 ## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета
 
 [Allure отчет](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/)
@@ -56,12 +57,14 @@ gradle clean alfamainpage_test
 <img title="Allure Tests" src="media/screens/Allure%20тесты.jpg" width="850">  
 </p>
 
+<a id="telegram"></a>
 ### <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления о результатах тестов в Telegram с использованием бота
 
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="media/screens/Telegram%20bot.jpg">
 </p>
 
+<a id="video-selenoid"></a>
 ### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео примера запуска теста в Selenoid
 
 <p align="center">
