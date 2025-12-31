@@ -11,7 +11,8 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class MainPage {
     private final SelenideElement logo = $("a[title='alfaIcon']");
-    private final SelenideElement loginButton = $("button[data-widget-uid='019b5a60-11d9-711e-bcb3-2406c89be94b']");
+    //private final SelenideElement loginButton = $("button[data-widget-uid='019b5a60-11d9-711e-bcb3-2406c89be94b']");
+    private final SelenideElement loginButton = $("button[data-widget-name='AnalyticsEventSender'] span.button__label_1cfl7");
     private final SelenideElement searchButton = $("[data-test-id='test-ya-button']");
     private final SelenideElement searchInput = $("[data-test-id='search-input']");
     private final SelenideElement creditCardButton = $("[data-widget-uid='019b6ed8-33ab-799e-99bc-55a559fbc357']");
@@ -33,7 +34,8 @@ public class MainPage {
 
     @Step("Проверка отображения кнопки 'Войти'")
     public MainPage checkLoginButtonOnPage() {
-        loginButton.shouldBe(visible);
+        loginButton.shouldHave(text("Войти"))
+                .shouldBe(visible);
         return this;
     }
 
