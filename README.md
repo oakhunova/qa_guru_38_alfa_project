@@ -3,7 +3,7 @@
 
 - [Использованный стек технологий](#использованный-стек-технологий)
 - [Запуск тестов из терминала](#запуск-тестов-из-терминала)
-- [Сборка в Jenkins](#сборка-в-jenkins)
+- [Сборка в Jenkins](#jenkins-build)
 - [Allure Report](#пример-allure-отчета)
 - [Уведомления о результатах тестов в Telegram с использованием бота](#уведомления-о-результатах-тестов-в-telegram-с-использованием-бота)
 - [Видео примера запуска тестов в Selenoid](#видео-примера-запуска-теста-в-selenoid)
@@ -28,8 +28,9 @@
 ```
 gradle clean alfamainpage_test
 ```
-При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>. 
+При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
 
+<a id="jenkins-build"></a>
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins-original.svg"> Сборка в Jenkins
 
 [Сборка в Jenkins](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/)
