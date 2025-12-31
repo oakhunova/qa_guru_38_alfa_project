@@ -15,7 +15,8 @@ public class MainPage {
     private final SelenideElement loginButton = $("button[data-widget-name='AnalyticsEventSender'] span.button__label_1cfl7");
     private final SelenideElement searchButton = $("[data-test-id='test-ya-button']");
     private final SelenideElement searchInput = $("[data-test-id='search-input']");
-    private final SelenideElement creditCardButton = $("[data-widget-uid='019b6ed8-33ab-799e-99bc-55a559fbc357']");
+    //private final SelenideElement creditCardButton = $("[data-widget-uid='019b6ed8-33ab-799e-99bc-55a559fbc357']");
+    private final SelenideElement creditCardButton = $("a[href*='credit-cards/zayavka']:first-of-type");
     private final SelenideElement getCardButton = $("[data-test-id='MainBanner-button-get-card']");
 
     CheckResultComponent checkResultComponent = new CheckResultComponent();
