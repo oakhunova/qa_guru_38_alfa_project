@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class TestBase {
     @BeforeAll
-    static void beforeAll() {
+    static void setupSelenideConfig() {
 
         Configuration.baseUrl = "https://alfabank.ru";
         Configuration.browser = System.getProperty("browser", "chrome");

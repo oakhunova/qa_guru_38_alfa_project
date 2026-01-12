@@ -50,9 +50,3 @@ tasks.withType(Test) {
 test {
     useJUnitPlatform()
 }
-
-tasks.register('alfamainpage_test', Test) {
-    useJUnitPlatform {
-        includeTags("alfamainpage")
-    }
-}

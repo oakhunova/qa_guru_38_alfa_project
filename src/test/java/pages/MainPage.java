@@ -1,7 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-import components.CheckResultComponent;
+import pages.components.CheckResultComponent;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.text;
@@ -21,7 +21,7 @@ public class MainPage {
 
     @Step("Открытие сайта в браузере")
     public MainPage openMainPage() {
-        open("https://alfabank.ru");
+        open("");
         return this;
     }
 
