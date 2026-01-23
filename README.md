@@ -57,9 +57,7 @@ gradle clean alfamainpage_test
 [//]: # ([Allure отчет]&#40;https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/&#41;)
 
 <a id="allure-report"></a>
-## <a href="https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/">
-  <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> 
-  Пример Allure отчета
+## <a href="https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/"><img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета</a>
 
 ### *Основная страница*
 <p align="center">
