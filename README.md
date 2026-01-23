@@ -1,4 +1,4 @@
-# Проект автоматизации тестирования для [Альфа-Банка](https://alfabank.ru/) <img width="40%" title="Alfa logo" src="media/logo/logo.png">
+# Проект автоматизации тестирования для [Альфа-Банка](https://alfabank.ru/) <img width="40%" title="Alfa logo" src="media/logo/Logo-alfabank.svg">
 ## Содержание:
 
 - [Использованный стек технологий](#использованный-стек-технологий)
