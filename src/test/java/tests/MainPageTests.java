@@ -10,7 +10,7 @@ public class MainPageTests extends TestBase {
     MainPage mainPage = new MainPage();
 
     @Test
-    @DisplayName ("Проверка отображения логотипа 'А'")
+    @DisplayName("Проверка отображения логотипа 'А'")
     @Tag("alfamainpage")
     void mainPageShouldLoadAndDisplayLogo() {
         mainPage.openMainPage()
@@ -18,7 +18,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName ("Проверка отображения кнопки 'Войти'")
+    @DisplayName("Проверка отображения кнопки 'Войти'")
     @Tag("alfamainpage")
     void loginButtonShouldBeVisible() {
         mainPage.openMainPage()
@@ -26,7 +26,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName ("Проверка наличия поля поиска на странице")
+    @DisplayName("Проверка наличия поля поиска на странице")
     @Tag("alfamainpage")
     void searchInputFieldShouldBePresent() {
         mainPage.openMainPage()
@@ -35,7 +35,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName ("Проверка работы поиска по сайту")
+    @DisplayName("Проверка работы поиска по сайту")
     @Tag("alfamainpage")
     void searchShouldReturnResults() {
         mainPage.openMainPage()
@@ -45,7 +45,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName ("Проверка наличия кнопки 'Получить карту'")
+    @DisplayName("Проверка наличия кнопки 'Получить карту'")
     @Tag("alfamainpage")
     void creditCardsSectionShouldOpenCorrectly() {
         mainPage.openMainPage()

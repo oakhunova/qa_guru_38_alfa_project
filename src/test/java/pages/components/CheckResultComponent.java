@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class CheckResultComponent {
     private final SelenideElement resultsContainerSelector = $(".hdJZg3");
+
     public void checkResult(String value) {
         resultsContainerSelector
                 .shouldBe(visible, Duration.ofSeconds(5))
