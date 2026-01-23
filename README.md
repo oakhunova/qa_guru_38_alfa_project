@@ -28,7 +28,7 @@
 
 ### Команда для запуска из терминала
 ```
-gradle clean alfamainpage_test
+gradle clean test
 ```
 При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
 
