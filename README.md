@@ -1,4 +1,6 @@
-# Проект автоматизации тестирования для [Альфа-Банка](https://alfabank.ru/) <img width="40%" title="Alfa logo" src="media/logo/Logo-alfabank.svg">
+# Проект автоматизации тестирования для [Альфа-Банка](https://alfabank.ru/)
+<img width="40%" title="Alfa logo" src="media/logo/Logo-alfabank.svg">
+
 ## Содержание:
 
 - [Использованный стек технологий](#использованный-стек-технологий)
@@ -30,10 +32,14 @@ gradle clean alfamainpage_test
 ```
 При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
 
-<a id="jenkins-build"></a>
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins-original.svg"> Сборка в Jenkins
+[//]: # (<a id="jenkins-build"></a>)
 
-[Сборка в Jenkins](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/)
+[//]: # (## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins-original.svg"> Сборка в Jenkins)
+
+[//]: # ()
+[//]: # ([Сборка в Jenkins]&#40;https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/&#41;)
+
+## [<img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins-original.svg"> Сборка в Jenkins](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/)
 
 Чтобы запустить сборку необходимо перейти в раздел <code>Собрать с параметрами</code>, выбрать следующие значения параметров:
 - *BROWSER - (браузер - chrome)*
@@ -43,10 +49,18 @@ gradle clean alfamainpage_test
 <img title="Jenkins Build" src="media/screens/Сборка%20Jenkins.jpg">
 </p>
 
-<a id="allure-report"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета
+[//]: # (<a id="allure-report"></a>)
 
-[Allure отчет](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/)
+[//]: # (## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета)
+
+[//]: # ()
+[//]: # ([Allure отчет]&#40;https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/&#41;)
+
+<a id="allure-report"></a>
+## <a href="https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/">
+  <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> 
+  Пример Allure отчета
+
 ### *Основная страница*
 <p align="center">
 <img title="Allure Report" src="media/screens/Allure%20отчет.jpg">
