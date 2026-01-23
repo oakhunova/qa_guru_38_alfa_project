@@ -32,13 +32,6 @@ gradle clean alfamainpage_test
 ```
 При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
 
-[//]: # (<a id="jenkins-build"></a>)
-
-[//]: # (## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins-original.svg"> Сборка в Jenkins)
-
-[//]: # ()
-[//]: # ([Сборка в Jenkins]&#40;https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/&#41;)
-
 ## [<img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins-original.svg"> Сборка в Jenkins](https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/)
 
 Чтобы запустить сборку необходимо перейти в раздел <code>Собрать с параметрами</code>, выбрать следующие значения параметров:
@@ -49,15 +42,8 @@ gradle clean alfamainpage_test
 <img title="Jenkins Build" src="media/screens/Сборка%20Jenkins.jpg">
 </p>
 
-[//]: # (<a id="allure-report"></a>)
-
-[//]: # (## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета)
-
-[//]: # ()
-[//]: # ([Allure отчет]&#40;https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/&#41;)
-
 <a id="allure-report"></a>
-## <a href="https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/12/allure/"><img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета</a>
+## <a href="https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/15/allure/"><img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета</a>
 
 ### *Основная страница*
 <p align="center">
