@@ -24,6 +24,12 @@
 <a href="https://www.jenkins.io/"><img width="6%" title="Jenkins" src="media/logo/Jenkins-original.svg"></a>
 </p>
 
+- В данном проекте автотесты написаны на языке <code>Java</code> с использованием фреймворка для тестирования Selenide.
+- В качестве сборщика был использован <code>Gradle</code>.
+- Использованы фреймворки <code>JUnit 5</code> и <code>Selenide</code>.
+- При прогоне тестов браузер запускается в <code>Selenoid</code>.
+- Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота.
+
 ## Запуск тестов из терминала
 
 ### Команда для запуска из терминала
