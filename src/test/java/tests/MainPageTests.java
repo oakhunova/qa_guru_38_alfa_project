@@ -1,7 +1,6 @@
 package tests;
 
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 
@@ -11,32 +10,28 @@ public class MainPageTests extends TestBase {
 
     @Test
     @DisplayName("Проверка отображения логотипа 'А'")
-    @Tag("alfamainpage")
     void mainPageShouldLoadAndDisplayLogo() {
         mainPage.openMainPage()
-                .checkLogoOnPage();
+                .checkLogo();
     }
 
     @Test
     @DisplayName("Проверка отображения кнопки 'Войти'")
-    @Tag("alfamainpage")
     void loginButtonShouldBeVisible() {
         mainPage.openMainPage()
-                .checkLoginButtonOnPage();
+                .checkLoginButton("Войти");
     }
 
     @Test
     @DisplayName("Проверка наличия поля поиска на странице")
-    @Tag("alfamainpage")
     void searchInputFieldShouldBePresent() {
         mainPage.openMainPage()
                 .clickSearchButton()
-                .checkSearchInputOnPage();
+                .checkSearchInput();
     }
 
     @Test
     @DisplayName("Проверка работы поиска по сайту")
-    @Tag("alfamainpage")
     void searchShouldReturnResults() {
         mainPage.openMainPage()
                 .clickSearchButton()
@@ -46,10 +41,28 @@ public class MainPageTests extends TestBase {
 
     @Test
     @DisplayName("Проверка наличия кнопки 'Получить карту'")
-    @Tag("alfamainpage")
     void creditCardsSectionShouldOpenCorrectly() {
         mainPage.openMainPage()
                 .clickCreditCardButton()
-                .checkGetCardButton();
+                .checkGetCardButton("Получить карту");
     }
+
+    @Test
+    @DisplayName("Проверка наличия кнопок 'Открыть ИП' и 'Открыть ООО'")
+    void checkStartBusinessButtons() {
+        mainPage.openMainPage()
+                .clickSmeButton()
+                .clickStartBusinessButton()
+                .checkIpButton("Открыть ИП")
+                .checkOooButton("Открыть ООО");
+    }
+
+    @Test
+    @DisplayName("Проверка наличия кнопки 'Открыть счёт'")
+    void checkOpenAccountButton() {
+        mainPage.openMainPage()
+                .clickCorporateButton()
+                .checkOpenAccountButton("Открыть счёт");
+    }
+
 }
