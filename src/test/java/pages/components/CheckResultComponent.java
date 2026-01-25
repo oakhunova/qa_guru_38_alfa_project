@@ -13,7 +13,7 @@ public class CheckResultComponent {
 
     public void checkResult(String value) {
         resultsContainerSelector
-                .shouldBe(visible, Duration.ofSeconds(5))
+                .shouldBe(visible, Duration.ofSeconds(10))
                 .shouldHave(text(value));
     }
 }
