@@ -1,5 +1,5 @@
 # Проект автоматизации тестирования для [Альфа-Банка](https://alfabank.ru/)
-<img width="40%" title="Alfa logo" src="media/logo/Logo-alfabank.svg">
+<p align="center">  <img width="40%" title="Alfa logo" src="media/logo/Logo-alfabank.svg">
 
 ## Содержание:
 
