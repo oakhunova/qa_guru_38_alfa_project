@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
     private final SelenideElement logo = $("a[title='alfaIcon']");
-    private final SelenideElement loginButton = $("button[data-widget-name='AnalyticsEventSender'] span.button__label_1cfl7");
+    private final SelenideElement loginButton =  $("button[data-widget-name='AnalyticsEventSender']");
     private final SelenideElement searchButton = $("[data-test-id='test-ya-button']");
     private final SelenideElement searchInput = $("[data-test-id='search-input']");
     private final SelenideElement creditCardButton = $("a[href*='credit-cards/zayavka']:first-of-type");
