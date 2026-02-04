@@ -23,6 +23,7 @@
 <a href="https://telegram.org/"><img width="6%" title="Telegram" src="media/logo/Telegram.svg"></a>
 <a href="https://www.jetbrains.com/idea/"><img width="6%" title="IntelliJ IDEA" src="media/logo/Intellij-original.svg"></a>
 <a href="https://github.com/"><img width="6%" title="GitHub" src="media/logo/Github-original.svg"></a> 
+
 </p>
 
 - В данном проекте автотесты написаны на языке <code>Java</code>.
