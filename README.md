@@ -38,6 +38,15 @@
 ```
 gradle clean test
 ```
+### Удаленный запуск в Jenkins
+```
+clean test
+-Dbrowser=${BROWSER}
+-Dbrowser_version=${BROWSER_VERSION}
+-Dbrowser_resolution=${BROWSER_RESOLUTION}
+-Dremote_browser=https://user1:1234@selenoid.autotests.cloud/wd/hub
+```
+
 При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
 
 <a id="jenkins-build"></a>

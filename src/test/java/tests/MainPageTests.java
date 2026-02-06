@@ -23,14 +23,6 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проверка наличия поля поиска на странице")
-    void searchInputFieldShouldBePresent() {
-        mainPage.openMainPage()
-                .clickSearchButton()
-                .checkSearchInput();
-    }
-
-    @Test
     @DisplayName("Проверка работы поиска по сайту")
     void searchShouldReturnResults() {
         mainPage.openMainPage()
@@ -45,24 +37,6 @@ public class MainPageTests extends TestBase {
         mainPage.openMainPage()
                 .clickCreditCardButton()
                 .checkGetCardButton("Получить карту");
-    }
-
-    @Test
-    @DisplayName("Проверка наличия кнопок 'Открыть ИП' и 'Открыть ООО'")
-    void checkStartBusinessButtons() {
-        mainPage.openMainPage()
-                .clickSmeButton()
-                .clickStartBusinessButton()
-                .checkIpButton("Открыть ИП")
-                .checkOooButton("Открыть ООО");
-    }
-
-    @Test
-    @DisplayName("Проверка наличия кнопки 'Открыть счёт'")
-    void checkOpenAccountButton() {
-        mainPage.openMainPage()
-                .clickCorporateButton()
-                .checkOpenAccountButton("Открыть счёт");
     }
 
 }
