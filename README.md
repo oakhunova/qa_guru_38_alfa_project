@@ -63,7 +63,7 @@ clean test
 </p>
 
 <a id="allure-report"></a>
-## <a href="https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/15/allure/"><img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета</a>
+## <a href="https://jenkins.autotests.cloud/job/qa_guru_38_alfa_main_page_ui/18/allure/"><img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure-Report.svg"> Пример Allure отчета</a>
 
 ### *Основная страница*
 <p align="center">
