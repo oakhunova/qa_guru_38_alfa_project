@@ -1,14 +1,14 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-import pages.components.CheckResultComponent;
 import io.qameta.allure.Step;
+import pages.components.CheckResultComponent;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
     private final SelenideElement logo = $("a[title='alfaIcon']");
-    private final SelenideElement loginButton =  $("button[data-widget-name='AnalyticsEventSender']");
+    private final SelenideElement loginButton = $("button[data-widget-name='AnalyticsEventSender']");
     private final SelenideElement searchButton = $("[data-test-id='test-ya-button']");
     private final SelenideElement searchInput = $("[data-test-id='search-input']");
     private final SelenideElement creditCardButton = $("a[href*='credit-cards/zayavka']:first-of-type");
@@ -60,8 +60,8 @@ public class MainPage {
         return this;
     }
 
-        @Step("Проверка отображения кнопки 'Получить карту'")
-        public MainPage checkGetCardButton(String getCardButtonName) {
+    @Step("Проверка отображения кнопки 'Получить карту'")
+    public MainPage checkGetCardButton(String getCardButtonName) {
         getCardButton.shouldBe(visible).shouldHave(text(getCardButtonName));
         return this;
     }

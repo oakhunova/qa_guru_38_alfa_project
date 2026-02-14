@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
 public class CheckResultComponent {
-    private final SelenideElement resultsContainerSelector = $(".hdJZg3");
+    private final SelenideElement resultsContainerSelector = $("[data-test-id='chat-component']");
 
     public void checkResult(String value) {
         resultsContainerSelector

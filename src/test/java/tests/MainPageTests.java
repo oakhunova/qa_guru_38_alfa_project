@@ -31,6 +31,7 @@ public class MainPageTests extends TestBase {
                 .checkResult("вклад");
     }
 
+
     @Test
     @DisplayName("Проверка наличия кнопки 'Получить карту'")
     void creditCardsSectionShouldOpenCorrectly() {
